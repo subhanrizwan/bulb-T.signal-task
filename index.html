@@ -4,14 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>js task</title>
 </head>
 <body>
-    
+<!--<input type="button" value="Click" onClick="alert('Hello world!');"> -->
 
-    <img src="/subhan project web&mobile/traffic signal.png1.png" onmouseover="src = '/subhan project web&mobile/traffic signal.png2.png'" onmouseover = "src ='/subhan project web&mobile/traffic signal.png2.png'">
-<center> <img src="/subhan project web&mobile/white.png" onMouseover="src='/subhan project web&mobile/yellow.png'"></center>
+   <img class="bulb" src="/subhan project web&mobile/white.png" onMouseover="src='/subhan project web&mobile/yellow.png'">
+   <center> <img  class="signal" src="/subhan project web&mobile/traffic signal.png1.png" onmouseover="src = '/subhan project web&mobile/traffic signal.png2.png'" onmouseout = "src ='/subhan project web&mobile/traffic signal.png3.png'">
+   </center>
 
+   <style>
+    .bulb{
+        position: relative;
+        top: 80px;
+        left: 300px;
+        width: 12%;
 
+    }
+
+    .signal{
+        width: 11%;
+        
+        position: relative;
+        bottom: 290px;
+
+    }
+   </style>
+   
 </body>
 </html>
